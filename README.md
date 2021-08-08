@@ -30,7 +30,7 @@ All the image and icon links have been taken from the main website ( https://www
 - Github : https://github.com/search?q=11431853&ref=simplesearch
 
 ### Subham Dobhal
-- Github : 
+- Github : https://github.com/shubhamdobhal05
 
 ## Run Locally
 
