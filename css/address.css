@@ -1,0 +1,138 @@
+body {
+    font-family: Whitney,Helvetica,Arial,sans-serif!important;
+}
+.header {
+    border-bottom: 1px solid #F5F5F6;
+    overflow: hidden;
+    padding: 10px 20px;
+}
+.myntraLogo {
+    width: 50px;
+    height: 40px;
+    float: left;
+    margin-left: 10px;
+}
+.headerCenter {
+    float: left;
+    line-height: 45px;
+    margin-left: 400px;
+}
+.headerRight {
+    float: right;
+    line-height: 12px;
+    margin-right: 10px;
+}
+a, h4 {
+    text-decoration: none;
+    font-family: Whitney,Helvetica,Arial,sans-serif!important;
+    color: #696B79;
+    word-spacing: 5px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size:small;
+}
+.image2 {
+    width: 30px;
+    margin-top: 10px;
+}
+h4 {
+    margin-left: 5px;
+}
+.address {
+    border: 1px solid #F5F5F6; 
+    width: 36%;
+    margin: 40px 40px 40px 250px;
+}
+.container1 {
+    margin: 15px;
+}
+.name {
+    position: relative;
+    display: inline-block;
+    width: 98%;
+    height: 40px;
+    border-width: thin;
+    border: 1px solid #dcdcdf;;
+    border-radius: 2px;
+    padding-left: 13px;;
+
+}
+.data {
+    position: relative;
+    display: inline-block;
+    width: 45%;
+    height: 40px;
+    border: none;
+    background-color: rgb(229, 226, 226);
+    padding-left: 13px;
+
+}
+#data2 {
+   margin-right:10px ;
+}
+.button1 {
+    background-color: white;
+    border: 1px solid #ff3f6c;
+    color: #ff3f6c;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    width: 90px;
+    height: 35px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+.container2 {
+
+    background: #fff;
+
+    padding: 8px;
+    box-shadow: 0 -1px 4px 0 #1f1e1e4d;
+}
+.button2 {
+    background-color: #ff3f6c!important;
+    font-size: 14px!important;
+    border-radius: 4px!important;
+    padding: 14px!important;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 2px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 100%;
+    border: none;
+
+}
+h3 {
+    font-size: 12px;
+    font-weight: 600;
+    color: #282c3f;
+    text-rendering: optimizeLegibility;
+}
+.footer {
+    border-top: 1px solid #F5F5F6;
+    margin: 0 0 10px 0;
+}
+.footer .container3 {
+    display: inline-block;
+}
+.images {
+    width: 70px;
+    margin-top: 10px;
+    height: 40px;
+}
+.container3 {
+    margin-left: 140px;
+}
+.contact {
+    float: right;
+    font-size: 14px;
+    padding-top: 20px;
+    
+}

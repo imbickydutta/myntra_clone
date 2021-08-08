@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/products.css" />
+  </head>
+  <body>
+    <main>
+      <div class="header sticky">
+        <div>
+          <a href="home.html"
+            ><img
+              src="https://cdn.freelogovectors.net/wp-content/uploads/2021/02/myntra-logo-freelogovectors.net_.png"
+              alt="logo"
+          /></a>
+        </div>
+        <div class="categories">
+          <ul>
+            <li class="dropdown-content1 dropdown-content">
+              <a href="mens.html">Men</a>
+            </li>
+            <li class="dropdown-content2 dropdown-content">
+              <a href="">Women</a>
+            </li>
+            <li class="dropdown-content3 dropdown-content">
+              <a href="">Kids</a>
+            </li>
+            <li class="dropdown-content4 dropdown-content">
+              <a href="">Home & Living</a>
+            </li>
+            <li class="dropdown-content5 dropdown-content">
+              <a href="">Beauty</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Search Div -->
+        <div class="search-div">
+          <img
+            id="searchpng"
+            src="https://image.flaticon.com/icons/png/128/49/49116.png"
+            alt=""
+          />
+
+          <input
+            type="text"
+            placeholder="Search for products, brands and more"
+          />
+        </div>
+
+        <div class="nav-last">
+          <div>
+            <a href="">
+              <img
+                id="svg"
+                src="https://www.svgrepo.com/show/198180/user-profile.svg"
+                alt=""
+              />
+            </a>
+
+            <div>Profile</div>
+          </div>
+
+          <div>
+            <a href="">
+              <img
+                id="svg"
+                src="https://www.svgrepo.com/show/14970/heart.svg"
+                alt=""
+              />
+            </a>
+
+            <div>Wishlist</div>
+          </div>
+
+          <div>
+            <a href="">
+              <img
+                id="svg"
+                src="https://www.svgrepo.com/show/17522/bag.svg"
+                alt=""
+              />
+            </a>
+
+            <div>Bag</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- dropdown -->
+      <div class="dropdown-menu1 dropdown-menu">
+        <ul>
+          <li><a href="#">Shirts</a></li>
+          <li><a href="#">Tshirts</a></li>
+          <li><a href="#">Jeans</a></li>
+          <li><a href="#">Shoes</a></li>
+          <li><a href="#">Accessories</a></li>
+        </ul>
+      </div>
+
+      <div class="dropdown-menu2 dropdown-menu">
+        <ul>
+          <li><a href="#">Ethnic</a></li>
+          <li><a href="#">western wear</a></li>
+          <li><a href="#">Footwear</a></li>
+          <li><a href="#">sports wear</a></li>
+          <li><a href="#">Accessories</a></li>
+        </ul>
+      </div>
+
+      <div class="dropdown-menu3 dropdown-menu">
+        <ul>
+          <li><a href="#">Boys Clothing</a></li>
+          <li><a href="#">Girls Clothing</a></li>
+          <li><a href="#">infants</a></li>
+          <li><a href="#">boys footwear</a></li>
+          <li><a href="#">girls footwear</a></li>
+        </ul>
+      </div>
+
+      <div class="dropdown-menu4 dropdown-menu">
+        <ul>
+          <li><a href="#">Bed Linen</a></li>
+          <li><a href="#">Flooring</a></li>
+          <li><a href="#">bath</a></li>
+          <li><a href="#">home decor</a></li>
+          <li><a href="#">kitchen</a></li>
+        </ul>
+      </div>
+
+      <div class="dropdown-menu5 dropdown-menu">
+        <ul>
+          <li><a href="#">make up</a></li>
+          <li><a href="#">skincare</a></li>
+          <li><a href="#">haircare</a></li>
+          <li><a href="#">fragrances</a></li>
+          <li><a href="#">mens grooming</a></li>
+        </ul>
+      </div>
+
+      <!-- content -->
+      <div class="content">
+        <div class="midsize">Home / <span>Casual Shirts For Men</span></div>
+        <div class="midsizeplus padding">
+          Casual Shirts For Men <span> - 8563 items</span>
+        </div>
+
+        <div class="products-catalogue">
+          <div class="filter-left">
+            <div class="midsizeplus" style="padding: 20px 20px">FILTERS</div>
+            <div class="filters">
+              <div class="filter-categories">
+                <p>Brands</p>
+
+                <input
+                  type="checkbox"
+                  id="adidas"
+                  value="adidas"
+                  onclick="filter('ADIDAS')"
+                />
+                <label for="adidas">Adidas</label><br />
+                <input
+                  type="checkbox"
+                  id="puma"
+                  value="puma"
+                  onclick="filter('Puma')"
+                />
+                <label for="puma">Puma</label><br />
+                <input
+                  type="checkbox"
+                  id="HRX"
+                  value="HRX"
+                  onclick="filter('HRX')"
+                />
+                <label for="HRX">HRX</label><br />
+                <input
+                  type="checkbox"
+                  id="wrogn"
+                  value="wrogn"
+                  onclick="filter('WROGN')"
+                />
+                <label for="wrogn">Wrogn</label><br />
+                <input
+                  type="checkbox"
+                  id="levis"
+                  value="levis"
+                  onclick="filter('Levis')"
+                />
+                <label for="levis">Levis</label><br />
+                <input
+                  type="checkbox"
+                  id="tommy"
+                  value="tommy"
+                  onclick="filter('Tommy Hilfiger')"
+                />
+                <label for="tommy">Tommy Hilfiger</label><br />
+              </div>
+
+              <div class="filter-categories">
+                <p>Price</p>
+                <input
+                  type="checkbox"
+                  id="500"
+                  value="500"
+                  onclick="priceFilter(500, 0)"
+                />
+                <label for="500">Below 500</label><br />
+
+                <input
+                  type="checkbox"
+                  id="1000"
+                  value="1000"
+                  onclick="priceFilter(1000, 500)"
+                />
+                <label for="1000">Rs.500 to Rs.1000</label><br />
+                <input
+                  type="checkbox"
+                  id="1500"
+                  value="1500"
+                  onclick="priceFilter(1500, 1000)"
+                />
+                <label for="1500">Rs.1000 to Rs.1500</label><br />
+                <input
+                  type="checkbox"
+                  id="2000"
+                  value="2000"
+                  onclick="priceFilter(2000, 1500)"
+                />
+                <label for="2000">Rs.1500 to Rs.2000</label><br />
+                <input
+                  type="checkbox"
+                  id="2000+"
+                  value="2000+"
+                  onclick="priceFilter(10000, 2000)"
+                />
+                <label for="2000+">Above Rs.2000</label><br />
+              </div>
+
+              <!-- <div class="filter-categories">
+                 <p>Color</p>
+                <input type="checkbox" id="red" value="red" />
+                <label for="red">
+                  <span class="color"></span>
+                  Red</label
+                ><br />
+
+                <input type="checkbox" id="blue" value="blue" />
+                <label for="blue"
+                  ><span class="color" style="background-color: blue"></span>
+                  Blue</label
+                ><br />
+
+                <input type="checkbox" id="green" value="green" />
+                <label for="green"
+                  ><span class="color" style="background-color: green"></span>
+                  Green</label
+                ><br />
+
+                <input type="checkbox" id="yellow" value="yellow" />
+                <label for="yellow"
+                  ><span class="color" style="background-color: yellow"></span>
+                  Yellow</label
+                ><br />
+
+                <input type="checkbox" id="black" value="black" />
+                <label for="black"
+                  ><span class="color" style="background-color: black"></span>
+                  Black</label
+                ><br />
+
+                <input type="checkbox" id="white" value="white" />
+                <label for="white"
+                  ><span class="color" style="background-color: white"></span>
+                  White</label
+                ><br />
+              </div> -->
+            </div>
+          </div>
+
+          <div class="right">
+            <div class="sort">
+              <select name="type" id="type">
+                <option selected>Sort By</option>
+                <option value="1">Price : High to Low</option>
+                <option value="2">Price : Low to High</option>
+                <option value="3">Best Discount</option>
+                <option value="4">Popularity</option>
+              </select>
+            </div>
+            <div id="products-right"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
+<script src="../js/products.js"></script>
+<script src="../js/allfiles.js"></script>

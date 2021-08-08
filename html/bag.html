@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOPPING BAG</title>
+    <link rel="stylesheet" href="../css/bag.css">
+</head>
+<body>
+    <div class = "header">
+        <img class = "myntraLogo" src = "https://www.searchpng.com/wp-content/uploads/2019/01/Myntra-logo-png-icon.png"/>
+        <div class = "headerCenter">
+            <a href = "C:\Users\HP\Desktop\project\bag.html">BAG --------</a>
+            <a href = "C:\Users\HP\Desktop\project\address.html">ADDRESS --------</a>
+            <a href = "C:\Users\HP\Desktop\project\payment.html">PAYMENT</a>    
+        </div>
+        <div class = "headerRight">
+            <img class = "image2" src = "https://constant.myntassets.com/checkout/assets/img/sprite-secure.png"/>
+            <h4 style = "float: right;">100% SECURE</h4>
+        </div>
+    </div>
+            <div class = "placeOrder" id= "placeOrder">
+                <div class = "grid-placeOrder">
+                    <p class = "child1">COUPONS</p>
+                    <p class = "child2"><b style = "color: black;">Apply Coupons</b></p>
+                    <button class = "child3">APPLY</button>
+                    <hr class = "child4">
+                    <p class = "child5">PRICE DETAILS(1 Item)</p>
+                    <p class = "child6">Total MRP</p>
+                    <p class = "child7">Rs. 649</p>
+                    <p class = "child8">Discount on MRP</p>
+                    <p class = "child9">- Rs. 228</p>
+                    <p class = "child10">Coupon Discount</p>
+                    <button class = "child11">Apply Coupon</button>
+                    <p class = "child12">Convenience Fee <b style = "color: #ff3f6c;;">Know More</b></p>
+                    <p class = "child13"><s>Rs99</s>Free</p>
+                    <hr class = "child14">
+                    <p class = "child15">Total Amount</p>
+                    <p class = "child16">Rs. 421</p>
+                    <button class = "child17" onclick="showAddressPage()">PLACE ORDER</button>
+
+                </div>
+            </div>
+                
+                
+                
+    </div>
+        <div>   
+            <div class = "center" id = "center">
+                <div class = "container4">
+                    <h4>Available Offer</h4>
+                    <p>
+                        . 10% Instant Discount on SBI Credit Cards on a minimum spend of Rs 3000. TCA<br><br>
+                        <span id = "tca">...</span><span id = "more">
+                        . 5% Unlimited Cashback on Flipkart Axis Bank Ctedit Card TCA<br><br>
+                        . 10% Cashback upto Rs 250 on a minimum spend of Rs 1500 with PayZapp TCA<br><br>
+                        . Upto Rs 500 Cashback on Mobikwik wallet transaction of min Rs 999. Use code MBK500 on mobikwik TCA<br><br>
+                        . Flat Rs 200 Cashback on first Airtel Payments Bank transcation on myntra on a min spend of Rs 2000 TCA</span>
+                    </p>
+                    <button onclick="showMore()" id="myBtn">Show More</button>
+                </div>
+                
+                <div class = "total">
+                    <h3 style = "float: left; font-size: larger; color: black; font-weight: 700;">My Shopping Bag(1 item)</h3>
+                    <h3 style = "float: right; font-size: larger; color: black; font-weight: 700;">Total: Rs. 421</h3>
+                </div>
+                <br><br><br>
+                <div class = "par">
+                    <div id = "addImages">
+                        
+                        <img id = "img2" src = "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2378362/2018/6/9/270e0a7e-365b-4640-9433-b269c60bf3061528527188563-Moda-Rapido-Men-Maroon-Printed-Round-Neck-T-shirt-3811528527-1.jpg"/>
+                        <div class = "child">
+                            <p class = "p">Moda Rapido<br>
+                            Men Maroon Printed Round Neck T-shirt<h5>Sold By : Vision Star</h5></p>
+                            <select name="size" id="size">
+                                <option value="SIZE:L">SIZE: L</option>
+                                <option value="SIZE:M">SIZE: M</option>
+                                <option value="SIZE:S">SIZE: S</option>
+                                <option value="SIZE:Xl">SIZE: XL</option>
+                            </select>
+                            <select name="quantity" id="quantity">
+                                <option value="1">Qty: 1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                            <h3>Discount: 35%</h3>
+                            <h6 style = "color: cornflowerblue;">Delivery By 28 JUL 2021</h6>
+                            
+                        </div>
+                        <div>
+                            <p id = "discount"><s>Rs649</s><br>Rs. 421</p>
+                        </div>
+                        
+                    </div>
+                </div>
+               
+        </div>             
+        <hr class = "horizontal">
+        <div>
+            <h4 style = "margin-left: 80px;">You May Also Like:</h4>
+            <button class = "myBtn2">All</button>
+            <button class = "myBtn2" onselect="showSocks()" style = "margin-left: 5px;">Scocks</button>
+            <button class = "myBtn2" onmouseover="showScarves()" style = "margin-left: 5px;">Scarves</button>
+            <div id = "gridContainer">
+
+            </div>
+        </div>
+    </div>
+    <div class = "footer">
+        <div class = "container3">
+            <img  class = "images" src = "https://constant.myntassets.com/checkout/assets/img/footer-bank-ssl.png"/>
+            <img class = "images" src = "https://constant.myntassets.com/checkout/assets/img/footer-bank-visa.png"/>
+            <img class = "images" src = "https://constant.myntassets.com/checkout/assets/img/footer-bank-mc.png"/>
+            <img class = "images" src = "https://constant.myntassets.com/checkout/assets/img/footer-bank-ae.png"/>
+            <img class = "images" src = "https://constant.myntassets.com/checkout/assets/img/footer-bank-dc.png"/>
+            <img class = "images" src = "https://constant.myntassets.com/checkout/assets/img/footer-bank-nb.png"/>
+            <img class = "images" src = "https://constant.myntassets.com/checkout/assets/img/footer-bank-cod.png"/>
+            <img class = "images" src = "https://constant.myntassets.com/checkout/assets/img/footer-bank-rupay.png"/>
+            <img class = "images" src = "https://constant.myntassets.com/checkout/assets/img/footer-bank-paypal.png"/>
+            <img class = "images" src = "https://constant.myntassets.com/checkout/assets/img/footer-bank-bhim.png"/>
+
+        </div>
+        
+            <a class = "contact" href= ""><span>Need Help? Contact Us</span></a>
+        
+
+    </div>
+</body>
+</html>
+
+<script src = "../js/bag.js"></script>

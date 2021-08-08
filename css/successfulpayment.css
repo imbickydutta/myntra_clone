@@ -1,0 +1,29 @@
+.parent {
+    border: 1px solid #f2f2f5;
+    width: 40%;
+    height: 550px;
+    margin: auto;
+    margin-top: 20px !important;
+    background-image: linear-gradient(to right, rgb(137, 219, 126) , rgb(103, 247, 7));
+    font-family: Whitney,Helvetica,Arial,sans-serif!important;
+    
+
+}
+#gif {
+    width: 70%;
+    height: 60%;
+    padding-left: 80px;
+}
+h2 {
+    text-align: center;
+    color:rgb(51, 51, 32);
+    font-weight: bold;
+    
+}
+#link {
+    padding-left: 38%;
+    color: rgb(58, 49, 49);
+    font-family: Whitney,Helvetica,Arial,sans-serif!important;
+    text-decoration: none;
+    
+}
