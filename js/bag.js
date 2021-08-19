@@ -140,7 +140,7 @@ function appendPage() {
                     <p class = "child13"><s>Rs. 99 </s> Free</p>
                     <hr class = "child14">
                     <p class = "child15">Total Amount</p>
-                    <p class = "child16">Rs. $$${Math.ceil(pro.oldprice * (100 - pro.discount) / 100)}</p>
+                    <p class = "child16">Rs. ${Math.ceil(pro.oldprice * (100 - pro.discount) / 100)}</p>
                     <button class = "child17" onclick="showAddressPage()">PLACE ORDER</button>
                 </div>`
 }
