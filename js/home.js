@@ -1,3 +1,4 @@
+let timerID;
 var slideIndex = 0;
 showSlides(slideIndex);
 
@@ -20,8 +21,11 @@ function showSlides() {
     if (slideIndex > slides.length) { slideIndex = 1 }
     slides[slideIndex - 1].style.display = "block";
 
-    setTimeout(showSlides, 3000); // Change image every 3 seconds
-
+    timerID = setTimeout(() => {
+        showSlides()
+        timerID = null;
+    }
+        , 3000); // Change image every 3 seconds
 }
 
 

@@ -339,7 +339,7 @@ function appendProduct(el) {
 
     let div = document.createElement("div")
 
-    console.log(el);
+    // console.log(el);
 
     div.addEventListener("click", function () {
         localStorage.setItem("clickedProduct", JSON.stringify(el))
